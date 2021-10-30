@@ -19,6 +19,45 @@
 
 
 <script src="js/index.js"></script>
+<script>
+  $(document).ready(function(){
+
+    $("#two").click(function(){
+      $("#two").animate({
+    width: '1500px'
+  });
+  });
+});
+
+  </script>
+  <script>
+    $(document).ready(function(){
+  
+      $("#three").click(function(){
+        $("#three").animate({
+      width: '1500px'
+    });
+    });
+  });
+  
+    </script>
+      <script>
+        $(document).ready(function(){
+      
+          $("#four").click(function(){
+            $("#four").animate({
+          width: '1500px'
+        });
+        });
+      });
+      
+        </script>
+  
+
+
+  </script>
+
+
 
  
 </head>
@@ -48,21 +87,25 @@
         </div>
       </div>
 
+<div class="spacer" style="height: 100px;">
+
+
+</div>
 
 
 
-
-<div class="one">
+<div id="two" class="one" ><a href="javascript:setTimeout(()=>{window. location = 'pages/puppylove.html' },1000);">
   <img class="cards" src="assets/puppylove.png" alt=""style="width: 80%; height:80%;">
   <div class="title">PUPPYLOVE</div> 
 </div>
+</a>
 
-<div class="two">
+<div id="three" class="two">
   <img class="cards" src="assets/pconcierge.png" alt=""style="width: 80%; height:80%;">
   <div class="title">POCKET CONCIERGE</div> 
 </div>
 
-<div class="three">
+<div id="four" class="three">
   <img class="cards" src="assets/puppylove.png" alt=""style="width: 80%; height:80%;">
   <div class="title">SFJAZZ</div> 
 </div>

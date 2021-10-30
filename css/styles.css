@@ -103,6 +103,10 @@ color:black;
     text-align: left;
 
   }
+
+  .spacer{
+      height: 200px;
+  }
  
 .one {
     text-align: center;
